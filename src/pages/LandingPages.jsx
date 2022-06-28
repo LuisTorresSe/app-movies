@@ -8,7 +8,7 @@ export function LandingPages() {
   const debounced = useDebounce(search, 800);
   return (
     <div>
-      <Search search={search} />
+      <Search />
       <MovieGrid key={debounced} search={debounced} />
     </div>
   );
