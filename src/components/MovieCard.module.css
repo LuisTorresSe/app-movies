@@ -1,0 +1,22 @@
+.movieCard{
+    list-style: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.imagecard{
+    border-radius: .5rem;
+}
+
+@media (max-width: 560px) {
+    .imagecard{
+        width: 90%;
+        height: auto;
+    }
+
+    .movieCard{
+        list-style: none;
+        font-size: 2rem;
+        text-align: center; 
+    }
+}

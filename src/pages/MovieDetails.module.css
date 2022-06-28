@@ -1,0 +1,34 @@
+.ContainerDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:0px 2rem 0px;
+    
+}
+
+.description{
+    width: 500px;
+    height: auto;
+    text-align: start;
+}
+
+.img{
+    border-radius: 1rem;
+}
+
+@media (max-width: 640px){
+
+    .ContainerDetails{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .img{
+        width: 250px;
+        height: auto;
+    }
+    .description{
+        width: auto;
+        height: auto;
+    }
+}

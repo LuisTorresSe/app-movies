@@ -1,0 +1,13 @@
+.Cards{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, 230px);
+    gap:1rem;
+    justify-content: center;
+    padding: 0px;
+}
+
+@media (max-width: 560px) {
+    .Cards{
+        grid-template-columns: 100%;
+    }
+}
