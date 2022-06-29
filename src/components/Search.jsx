@@ -13,6 +13,7 @@ export function Search() {
   const searching = (value) => {
     navigate("/?search=" + value);
     setSearch(value);
+    console.log(process.env.REACT_APP_API);
   };
 
   return (
